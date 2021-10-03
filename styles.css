@@ -1,0 +1,398 @@
+#thx
+{
+    animation: animate 2s linear infinite;
+}
+@keyframes animate
+{
+    14%
+    {
+        background-color: red;
+    }
+    28%
+    {
+        background-color: orange;
+    }
+    42%
+    {
+        background-color: yellow;
+    }
+    56%
+    {
+        background-color: green;
+    }
+    70%
+    {
+        background-color: blue;
+    }
+    84%
+    {
+        background-color: indigo;
+    }
+    100%
+    {
+        background-color: violet;
+    }
+}
+
+.about-headers
+{
+    color: red;
+    font-size: 140%;
+}
+
+.about-text
+{
+    padding: 5%;
+    left: 5%;
+    line-height: 2;
+}
+
+.bottom-padding
+{
+    padding-bottom: 3rem;
+}
+
+.btn 
+{
+    cursor: pointer;
+}
+
+.center-text-for-large-text1
+{
+    margin-left: 30%;
+}
+
+.center-text-for-large-text2
+{
+    margin-left: 28%;
+    padding-top: 0.8cm;
+}
+
+.center-text-for-large-text3
+{
+    margin-left: 20%;
+}
+
+.centering
+{
+    text-align: center;
+}
+
+.click-here-align
+{
+    margin-left: 38%;
+}
+
+.contact-text
+{
+    padding-top: 4%;
+    left: 20%;
+    line-height: 2;
+    font-size: 110%;
+}
+
+.fade-in
+{
+    opacity: 1;
+}
+
+.grey-start
+{
+    background-color: lightgrey;
+}
+
+.grey-text
+{
+    color: rgba(3, 6, 17, 0.685);
+}
+
+.large-text1 
+{
+    font-size: 1000%;
+}
+
+.large-text2 
+{
+    font-size: 1000%;
+}
+
+.last-statement
+{
+    margin-left: 35%;
+    font-size: 150%;
+}
+
+.lesser-large-text
+{
+    font-size: 300%;
+}
+
+.low-opacity
+{
+    opacity: 0.0;
+    transition: opacity 1.5s ease-in-out;
+}
+ 
+.middle
+{
+    margin-left: 43.1%;
+}
+
+.middle-b
+{
+    margin-left: 47.1%;
+}
+
+.message-format
+{
+    padding-top: 4%;
+}
+
+.thx-color
+{
+    color: black;
+}
+
+.work-color
+{
+    background-color: aquamarine;
+}
+
+@media (max-width: 1300px)
+{
+    .center-text-for-large-text1
+    {
+        margin-left: 25%;
+    }
+
+    .center-text-for-large-text2
+    {
+        margin-left: 23%;
+    }
+
+    .click-here-align
+    {
+        margin-left: 32.9%;
+    }
+
+    .middle
+    {
+        margin-left: 40%;
+    }
+
+    .middle-b
+    {
+        margin-left: 44%;
+    }
+}
+
+@media (max-width: 1100px)
+{
+    .center-text-for-large-text1
+    {
+        margin-left: 20%;
+    }
+
+    .center-text-for-large-text2
+    {
+        margin-left: 18%;
+    }
+
+    .front-img
+    {
+        height: 50%;
+        width: 95%;
+    }
+
+    .large-text1
+    {
+        font-size: 875%;
+    }
+
+    .large-text2
+    {
+        font-size: 875%;
+    }
+
+    .last-statement
+    {
+        margin-left: 40%;
+    }
+}
+
+@media (max-width: 1000px)
+{
+    .message-format
+    {
+        margin-left: 20%;
+    }
+
+    .large-text2
+    {
+        font-size: 700%;
+    }
+
+    .last-statement
+    {
+        margin-left: 30%;
+    }
+}
+
+@media (max-width: 800px)
+{
+    .about-text
+    {
+        line-height: 1.5;
+    }
+
+    .center-text-for-large-text1
+    {
+        margin-left: 15%;
+    }
+
+    .center-text-for-large-text2
+    {
+        margin-left: 13%;
+    }
+
+    .click-here-align
+    {
+        margin-left: 29%;
+    }
+
+    .front-img
+    {
+        height: 70%;
+        width: 90%;
+    }
+
+    .large-text1
+    {
+        font-size: 800%;
+    }
+
+    .large-text2
+    {
+        font-size: 600%;
+    }
+
+    .lesser-large-text
+    {
+        font-size: 250%;
+    }
+
+    .middle
+    {
+        margin-left: 36%;
+    }
+
+    .middle-b
+    {
+        margin-left: 40%;
+    }
+}
+
+
+
+@media (max-width: 700px)
+{
+    .center-text-for-large-text1
+    {
+        margin-left: 12%;
+    }
+
+    .center-text-for-large-text2
+    {
+        margin-left: 10%;
+    }
+
+    .large-text2
+    {
+        font-size: 400%;
+    }
+
+    .last-statement
+    {
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 690px)
+{
+    .about-text
+    {
+        font-size: 90%;
+    }
+
+    .click-here-align
+    {
+        font-size: 90%;
+    }
+
+    .last-statement
+    {
+        font-size: 120%;
+        margin-left: 25%;
+    }
+}
+
+@media (max-width: 630px)
+{
+    .about-text
+    {
+        font-size: 80%;
+    }
+
+    .center-text-for-large-text1
+    {
+        margin-left: 6%;
+    }
+
+    .center-text-for-large-text2
+    {
+        margin-left: 4%;
+    }
+
+    .click-here-align
+    {
+        font-size: 80%;
+    }
+
+    .large-text1
+    {
+        font-size: 500%;
+    }
+}
+
+@media (max-width: 610px)
+{
+    .about-text
+    {
+        font-size: 75%;
+    }
+
+    .center-text-for-large-text3
+    {
+       margin-left: 15%;
+    }   
+
+    .click-here-align
+    {
+        margin-left: 22%;
+    }
+
+    .last-statement
+    {
+        margin-left: 20%;
+    }
+
+    .middle
+    {
+        margin-left: 30%;
+    }
+
+    .middle-b
+    {
+        margin-left: 36%;
+    }
+}
